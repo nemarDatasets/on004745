@@ -1,0 +1,3 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on004745-blue)](https://doi.org/10.82901/nemar.on004745)
+
+Dataset consists of 6 participants who performed SSVEP tasks. We designed stimulations at 3 different frequencies (2 Hz, 4 Hz, 8 Hz). Each participant attended to 3 trials for each frequency in which they remained static as much as possible to avoid artifacts. They attended to 3 trials for each frequency in which they made voluntary head/neck and eye movements. Please refer to Kumaravel et al., (IEEE EMBC 2021) for further details.
