@@ -1,0 +1,25 @@
+{
+  "version": "2.0",
+  "dataset_id": "on004745",
+  "source": "openneuro",
+  "source_id": "ds004745",
+  "title": "8-Channel SSVEP EEG Dataset with Artifact Trials",
+  "authors": {
+    "Velu Prabhakar Kumaravel": {},
+    "Victor Kartsch": {},
+    "Simone Benatti": {},
+    "Giorgio Vallortigara": {},
+    "Elisabetta Farella": {},
+    "Marco Buiatti": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds004745.v1.0.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded"
+}
