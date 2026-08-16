@@ -1,0 +1,5 @@
+{
+  "TaskDescription": "Steady-state visual evoked potential (SSVEP) protocol with three flicker frequencies (2 Hz, 4 Hz, 8 Hz). Each participant performed 3 artifact-free trials per frequency (remained as static as possible) and 3 artifact trials per frequency (voluntary head/neck and eye movements).",
+  "MISCChannelCount": 0,
+  "TriggerChannelCount": 0
+}
