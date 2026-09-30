@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "8-Channel SSVEP EEG Dataset with Artifact Trials",
+  "description": "An 8-channel wearable EEG dataset of steady-state visual evoked potentials (SSVEP) recorded from 6 participants. Stimulation was delivered at 2 Hz, 4 Hz and 8 Hz. Each participant completed trials while staying still and trials with voluntary head/neck and eye movements, so the recordings include both clean and artifact-contaminated data.",
+  "methods_description": "Six participants performed SSVEP tasks with visual stimulation at three frequencies (2, 4, and 8 Hz). For each frequency they completed three trials remaining as static as possible and three trials with voluntary head/neck and eye movements to induce artifacts.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -12,6 +14,28 @@
     "Elisabetta Farella": {},
     "Marco Buiatti": {}
   },
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "SSVEP"
+    },
+    {
+      "term": "Evoked Potentials, Visual",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D005074"
+    },
+    {
+      "term": "artifact removal"
+    },
+    {
+      "term": "wearable EEG"
+    },
+    {
+      "term": "low-density EEG"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004745.v1.0.1",
@@ -29,7 +53,7 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004745",
+      "identifier": "https://nemar.org/dataset/on004745",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     }
@@ -41,12 +65,12 @@
       "award_title": "NeuroSoNew ERC PoC Grant"
     }
   ],
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "253.8 MB (7 files)"
+    "242 MB (7 files)"
   ],
   "formats": [
     ".json",
@@ -54,28 +78,6 @@
     ".set",
     ".tsv",
     ".yml"
-  ],
-  "description": "An 8-channel EEG dataset comprising steady-state visual evoked potential (SSVEP) recordings from 6 participants performing attention tasks at three stimulation frequencies (2 Hz, 4 Hz, 8 Hz). The dataset includes both artifact-free trials with minimal movement and trials with voluntary head, neck, and eye movements, enabling investigation of SSVEP robustness under naturalistic conditions.",
-  "methods_description": "Participants performed SSVEP tasks with visual stimulation at three frequencies (2 Hz, 4 Hz, 8 Hz). For each frequency, participants completed 3 trials while remaining static to minimize artifacts and 3 trials while making voluntary head/neck and eye movements. EEG was recorded using an 8-channel system.",
-  "keywords": [
-    {
-      "term": "SSVEP"
-    },
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "steady-state visual evoked potential"
-    },
-    {
-      "term": "brain-computer interface"
-    },
-    {
-      "term": "artifact detection"
-    },
-    {
-      "term": "visual stimulation"
-    }
   ],
   "source_hash": "c3095da4bddbfc6b8266b9dacc36fc0cf9a790ab5ae4f72e50e04f2fc4d09f03"
 }
